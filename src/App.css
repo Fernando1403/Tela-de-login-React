@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html, body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.container .header h1{
+  color: #ff057a;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.container .header span{
+  padding-top: 14px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.container form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container form .inputContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container form .inputContainer label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.container form .inputContainer input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  width: 520px;
+  height: 49px;
+  border:1px solid #ff057a;
+  border-radius: 12px;
+}
+
+.container form .Button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: none;
+  width: 260px;
+  height: 45px;
+  background:#ff057a;
+  border-radius:12px;
+  color: azure;
+}
+
+.container form .Button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.container form .footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 1rem 1.5rem 3rem ;
+}
+
+.container form .footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.container form .footer a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #ff057a;
+}
